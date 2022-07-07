@@ -1,13 +1,14 @@
-package ga12Supermarka;
+package supermar.code;
 
 import java.util.ArrayList;
 import java.sql.*;
 
 public class Comprobante 
 {
-	private Integer idComprobante;
+	private Integer id;
 	private float total;
-	private Date fecha;
+	private String tipo;
+	private Timestamp fecha;
 	private Character tipo;
 	private ArrayList <Producto> productos;
 	
@@ -21,7 +22,13 @@ public class Comprobante
 		this.productos = productos;
 	}
 
-
+	/*public getDestinatario()
+	{
+		
+	}
+	*/
+	
+	
 	public Integer getIdComprobante() {
 		return idComprobante;
 	}

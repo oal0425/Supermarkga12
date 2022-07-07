@@ -1,4 +1,4 @@
-package ga12Supermarka;
+package supermar.code;
 
 public class Persona
 {
